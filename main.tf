@@ -11,7 +11,7 @@ resource "aws_instance" "RHEL-Server" {
     Name = "RHEL-Server"
   }
   root_block_device {
-    volume_size = 15 
+    volume_size = 12 
     volume_type = "gp3"
     encrypted   = true
   }
