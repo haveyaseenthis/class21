@@ -8,7 +8,7 @@ resource "aws_instance" "RHEL-Server" {
   instance_type = "t2.micro"
   key_name      = "yasinDEVOPS2"
   tags = {
-    Name = "RHEL-Server"
+    Name = "RHEL-Server-2"
   }
   root_block_device {
     volume_size = 12 
